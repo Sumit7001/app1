@@ -1,0 +1,182 @@
+/* app.css */
+
+/* Style for the header component */
+/* App.css */
+
+/* Style for the overall app container */
+/* App.css */
+
+/* Style for the overall app container */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Use flexbox to create a two-column layout */
+  justify-content: space-between; /* Space between the columns */
+}
+.container {
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensure the container takes at least the full viewport height */
+  background-color: #f0f0f0;
+}
+.app-content {
+  max-width: 800px; /* Adjust the maximum width as needed */
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+/* Style for the header component */
+.header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Style for the sort button */
+.sort-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.sort-button:hover {
+  background-color: #0056b3;
+}
+
+/* Style for the create area component */
+.create-area {
+  background-color: white;
+  border: 1px solid #ccc;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 400px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+.create-area {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  max-width: 400px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  text-align: center;
+}
+.left-column {
+  flex: 1; /* Allow the column to grow to fill available space */
+  padding: 20px;
+}
+
+/* Style for the right column (containing other components) */
+.right-column {
+  flex: 1; /* Allow the column to grow to fill available space */
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.create-area input[type="text"],
+.create-area textarea,
+.create-area input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.create-area button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.create-area button:hover {
+  background-color: #0056b3;
+}
+
+/* Style for the plus icon inside the button */
+.create-area .plus {
+  font-size: 20px;
+}
+
+/* Style for the note component */
+.note {
+  background-color: white;
+  border: 1px solid #ccc;
+  margin: 10px auto;
+  padding: 20px;
+  max-width: 400px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.note h1 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.note p {
+  font-size: 14px;
+  color: #333;
+}
+
+/* Style for the edit and delete buttons */
+.note button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Hover effect for buttons */
+.note button:hover {
+  background-color: #0056b3;
+}
+
+/* Style for the input checkbox */
+.note input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+/* Style for the "Remove All" button */
+.remove-all-button {
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.remove-all-button:hover {
+  background-color: #c9302c;
+}
+
+/* Style for the footer component */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}

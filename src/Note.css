@@ -1,0 +1,64 @@
+.note {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 10px auto;
+    padding: 20px;
+    max-width: 400px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style for the title of the note */
+  .note h1 {
+    font-size: 18px;
+    margin: 0;
+    color: #333;
+  }
+  
+  /* Style for the content of the note */
+  .note p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Style for the edit and delete buttons */
+  .note button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for buttons */
+  .note button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style for the input checkbox */
+  .note input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  /* Style for the "Save" button in edit mode */
+  .note input[type="text"],
+  .note textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+  }
+  
+  .note .save-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for the "Save" button */
+  .note .save-button:hover {
+    background-color: #0056b3;
+  }
+  
