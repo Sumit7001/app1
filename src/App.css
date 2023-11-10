@@ -1,20 +1,12 @@
-/* app.css */
 
-/* Style for the header component */
-/* App.css */
-
-/* Style for the overall app container */
-/* App.css */
-
-/* Style for the overall app container */
 
 body {
   font-family: Arial, sans-serif;
   background-color: #f0f0f0;
   margin: 0;
   padding: 0;
-  display: flex; /* Use flexbox to create a two-column layout */
-  justify-content: space-between; /* Space between the columns */
+  display: flex;
+  justify-content: space-between; 
 }
 .container {
   text-align: center;
@@ -24,16 +16,16 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh; /* Ensure the container takes at least the full viewport height */
+  min-height: 100vh; 
   background-color: #f0f0f0;
 }
 .app-content {
-  max-width: 800px; /* Adjust the maximum width as needed */
+  max-width: 800px; 
   width: 100%;
   padding: 20px;
   text-align: center;
 }
-/* Style for the header component */
+
 .header {
   background-color: #333;
   color: white;
@@ -41,7 +33,7 @@ body {
   border-radius: 5px;
 }
 
-/* Style for the sort button */
+
 .sort-button {
   background-color: #007bff;
   color: white;
@@ -55,7 +47,7 @@ body {
   background-color: #0056b3;
 }
 
-/* Style for the create area component */
+
 .create-area {
   background-color: white;
   border: 1px solid #ccc;
@@ -75,13 +67,13 @@ body {
   text-align: center;
 }
 .left-column {
-  flex: 1; /* Allow the column to grow to fill available space */
+  flex: 1; 
   padding: 20px;
 }
 
-/* Style for the right column (containing other components) */
+
 .right-column {
-  flex: 1; /* Allow the column to grow to fill available space */
+  flex: 1; 
   padding: 20px;
   background-color: #fff;
   border-radius: 5px;
